@@ -4,7 +4,7 @@ Adapterplatine, um einen 2x8-poligen Pfostenstecker mit einem Steckbrett benutzt
 
 # Schaltplan
 
-![Schaltplan](doc/Adapter-Pfostenstecker.svg)
+![Schaltplan](doc/Adapter-Pfostenstecker.png)
 
 # Bestückungsplan
 

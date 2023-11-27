@@ -35,7 +35,7 @@ update-sch-pdf() {
     if [ $? -ne 0 ] || [ ! -f "$OUTPUT_DIRECTORY/$*.pdf" ]
     then
         echo "==> sch export pdf"
-        #kicad-cli sch export pdf  "$@" -o "$OUTPUT_DIRECTORY/$@.pdf" 
+        kicad-cli sch export pdf  "$@" -o "$OUTPUT_DIRECTORY/$@.pdf" 
         my_exit $? "Kann [$OUTPUT_DIRECTORY/$@.pdf] nicht erzeugen."
         echo "<== done"
         echo ""
